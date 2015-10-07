@@ -1,0 +1,196 @@
+    1  gcc
+    2  java
+    3  javac
+    4  libc
+    5  pwd
+    6  git clone git://github.com/ganjash/test.git
+    7  ls test
+    8  ls t*
+    9  git clone git://github.com/ganjash/lappy.git
+   10  ls lappy
+   11  cd lappy
+   12  ls
+   13  cd ..
+   14  pwd
+   15  cd lappy
+   16  ls \.git
+   17  ls
+   18  vi README.md
+   19  ls
+   20  git status
+   21  git checkout README.md
+   22  git status
+   23  vi README.md 
+   24  git status
+   25  git add README.md
+   26  git status
+   27  vi \.git/HEAD
+   28  git reset HEAD README.md
+   29  git status
+   30  git commit -a
+   31  git add README.md
+   32  git status
+   33  git add README.md
+   34  exit
+   35  git add README.md
+   36  exit
+   37  ls
+   38  cd lappy
+   39  ls
+   40  vi README.md
+   41  git status
+   42  git commit README.md
+   43  git status
+   44  man git commit
+   45  git status
+   46  git add README.md
+   47  git commit README.md
+   48  git status
+   49  git commit README.md
+   50  ps
+   51  pkill 23464
+   52  ps
+   53  kill 23464
+   54  ps
+   55  exit
+   56  ps
+   57  git status
+   58  git commit
+   59  git status
+   60  git reset
+   61  git checkout README.md
+   62  git status
+   63  git commit
+   64  cd ..
+   65  vi README.md
+   66  vi  /lappy/README.md
+   67  pwd
+   68  cd lappy
+   69  ls
+   70  mv README.md ../README.md
+   71  git status
+   72  git add/rm README.md
+   73  git rm README.md
+   74  vi /home/tcs/lappy/ \.git/index.lock
+   75  rm /home/tcs/lappy/ \.git/index.lock
+   76  rm /home/tcs/lappy/ .git/index.lock
+   77  rm /home/tcs/lappy/\.git/index.lock
+   78  cd \.git
+   79  rm index.lock
+   80  ls
+   81  rm *.lock
+   82  cd
+   83  cd lappy
+   84  git status
+   85  git rm README.md
+   86  git status
+   87  git commit
+   88  git commit -m "commit after delete"
+   89  git status
+   90  cp ../README.md .
+   91  git status
+   92  git add *.md
+   93  vi README.md
+   94  git commit -m "adding the file after delete"
+   95  vi README.md
+   96  git add *.md
+   97  git commit -v -m "committed"
+   98  git commit -v 
+   99  vi README.md
+  100  git commit -v 
+  101  git add README.md
+  102  git commit -v
+  103  git commit -m "committed
+"
+  104  .gitignore
+  105  vi .gitignore
+  106  touch hello.txt
+  107  git status
+  108  touch hello.abc
+  109  git status
+  110  rm hello.abc
+  111  vi .gitignore
+  112  git status
+  113  rm *.txt
+  114  git status
+  115  git add .gitignore
+  116  git commit -m "added ignore file"
+  117  git status
+  118  ls
+  119  cd \.git
+  120  ls
+  121  ls *.lock
+  122  cd ..
+  123  ls
+  124  vi README.md
+  125  git add README.md
+  126  git diff --cached
+  127  vi README.md 
+  128  git status
+  129  git diff
+  130  ls
+  131  git status
+  132  git checkout README.md
+  133  git reset HEAD README.md
+  134  git status
+  135  vi README.md
+  136  git checkout README.md
+  137  git status
+  138  vi README.md
+  139  git status
+  140  git add README.md
+  141  git status
+  142  git checkout README.md
+  143  vi README.md 
+  144  git reset HEAD README.md
+  145  git status
+  146  git checkout README.md
+  147  git status
+  148  git commit
+  149  ls -la
+  150  vi testuntrack.txt
+  151  git status
+  152  git rm --cached testuntrack.txt
+  153  git status
+  154  git add *.txt
+  155  git rm --cached testuntrack.txt
+  156  git status
+  157  rm *.txt
+  158  ls
+  159  cd
+  160  ls
+  161  cd Documents
+  162  ls
+  163  cd ..
+  164  cd Downloads/
+  165  ls
+  166  cd ..
+  167  ls Downloads/*.*
+  168  cd lappy
+  169  ls
+  170  git log
+  171  git log -p
+  172  git logqq
+  173  git log -p|more
+  174  git status
+  175  git push origin master
+  176  cd .git
+  177  ls
+  178  cd refs
+  179  ls
+  180  cd remotes
+  181  ls
+  182  cd origin
+  183  ls
+  184  vi HEAD
+  185  cd ../../../../../
+  186  cd lappy
+  187  git remote
+  188  history tail -10|more
+  189  history -tail |more
+  190  man history
+  191  history |tail -10|more
+  192  history |tail -50|more
+  193  history |tail -150|more
+  194  history |tail -200|more
+  195  history |tail -200|more >> git_work_list.txt
